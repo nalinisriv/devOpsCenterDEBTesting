@@ -1,0 +1,127 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"77acc824-d781-44c2-98d2-ab0b8bf9f2b0\",\"columns\":[{\"UUID\":\"b38c9a96-c936-4a04-b0be-cdefc004b8c3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "Replace this text with content of your own."
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0bd1794b-0c7b-4f28-b2cc-557ddfd4ef40",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "buttonAlignment" : "left",
+                "buttonSize" : "standard",
+                "buttonText" : "Submit",
+                "customFieldOneConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"test\"}",
+                "customFieldOneLabel" : "Custom Field Label",
+                "customFieldOnePlaceholder" : "Custom Field Placeholder",
+                "customFieldThreeConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+                "customFieldThreeLabel" : "Custom Field Label",
+                "customFieldThreePlaceholder" : "Custom Field Placeholder",
+                "customFieldTwoConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+                "customFieldTwoLabel" : "Custom Field Label",
+                "customFieldTwoPlaceholder" : "Custom Field Placeholder",
+                "descriptionFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Description\"}",
+                "descriptionLabel" : "Description",
+                "descriptionPlaceholder" : "Enter your description",
+                "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedEmail\"}",
+                "emailLabel" : "Email",
+                "emailPlaceholder" : "Enter your email address",
+                "fullNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedName\"}",
+                "fullNameLabel" : "Full Name",
+                "fullNamePlaceholder" : "Enter your name",
+                "isCustomFieldOneRequired" : false,
+                "isCustomFieldThreeRequired" : false,
+                "isCustomFieldTwoRequired" : false,
+                "isDescriptionRequired" : false,
+                "isEmailRequired" : false,
+                "isFullNameRequired" : false,
+                "isPhoneRequired" : false,
+                "isSubjectRequired" : false,
+                "phoneFieldConfig" : "{\"fieldInputType\":\"Phone\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedPhone\"}",
+                "phoneLabel" : "Phone",
+                "phonePlaceholder" : "Enter your phone number",
+                "position" : "left",
+                "showCustomFieldOne" : false,
+                "showCustomFieldThree" : false,
+                "showCustomFieldTwo" : false,
+                "showDescription" : true,
+                "showEmail" : true,
+                "showFormLabels" : true,
+                "showFullName" : true,
+                "showPhone" : true,
+                "showSubject" : true,
+                "showSubtitle" : true,
+                "showTitle" : true,
+                "subjectFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Subject\"}",
+                "subjectLabel" : "Subject",
+                "subjectPlaceholder" : "Enter your subject",
+                "submitActionCustomErrorMessage" : "Looks like something went wrong.",
+                "submitActionSuccessInlineMessage" : "Thank you!",
+                "submitActionSuccessInlineMessageFontSize" : "small",
+                "submitActionSuccessInlineMessagePosition" : "left",
+                "submitActionType" : "inline",
+                "subtitle" : "Tell us how we can help.",
+                "title" : "NEWDEV1 Sandox Updated from vscode",
+                "width" : 100
+              },
+              "definition" : "dxp_form:contactSupportForm",
+              "id" : "a681a7a6-70b3-4c7f-9f57-f7ac142b9050",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg); background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "98ec8425-f2c5-4aaf-865e-d518862a64e8",
+              "type" : "component"
+            } ],
+            "id" : "b38c9a96-c936-4a04-b0be-cdefc004b8c3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "77acc824-d781-44c2-98d2-ab0b8bf9f2b0",
+          "type" : "component"
+        } ],
+        "id" : "de2f68c3-d2e0-4af8-bfd7-318920b8b819",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "bb68d87f-768b-416c-9597-8fa23634ecd0",
+          "type" : "component"
+        } ],
+        "id" : "0a978843-6a11-4b6c-b25d-b5e6fa592478",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "6cd07bd4-7bc1-4af1-a504-fea1ebbe346a",
+      "type" : "component"
+    },
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}
