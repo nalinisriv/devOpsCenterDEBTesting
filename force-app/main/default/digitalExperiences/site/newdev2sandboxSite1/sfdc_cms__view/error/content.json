@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"562e2b72-2299-4442-93eb-a313ba7fdf13\",\"columns\":[{\"UUID\":\"0badbf47-a324-4adf-a9a0-f33acd8e4759\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a892a523-d810-4f50-9b77-0d9cc924afc1",
+              "type" : "component"
+            } ],
+            "id" : "0badbf47-a324-4adf-a9a0-f33acd8e4759",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "562e2b72-2299-4442-93eb-a313ba7fdf13",
+          "type" : "component"
+        } ],
+        "id" : "c07673e4-38ff-4427-ad00-8ad129ca5231",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "3b3ba162-cbd4-4d2d-95e5-d3bb7b2f274f",
+          "type" : "component"
+        } ],
+        "id" : "43f32e0b-db26-424c-bcaf-ae9d5c6453b0",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "90e37dad-e58a-4e54-9a15-1a97bb8f0f35",
+      "type" : "component"
+    },
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  }
+}
